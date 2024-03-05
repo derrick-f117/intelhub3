@@ -3,7 +3,7 @@
 
 <head>
 
-  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <!-- <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Dashboard.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
@@ -20,132 +20,20 @@
 		"name": "",
 		"logo": "images/logo-search-grid-2x.png",
 		"sameAs": []
-}</script>
+}</script> -->
+  <link rel="stylesheet" href="quiz.css">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
-    <style>
-        * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  height: 100vh;
-  background: linear-gradient(184deg,#5473ff,#2d3fe2);
-}
-.start-screen,
-.score-container {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-#start-button,
-#restart {
-  font-size: 1.3em;
-  padding: 0.5em 1.8em;
-  border-radius: 0.2em;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
-}
-#restart {
-  margin-top: 0.9em;
-}
-#display-container {
-  background-color: #ffffff;
-  padding: 3.1em 1.8em;
-  width: 80%;
-  max-width: 37.5em;
-  margin: 0 auto;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  border-radius: 0.6em;
-}
-.header {
-  margin-bottom: 1.8em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 0.6em;
-  border-bottom: 0.1em solid #c0bfd2;
-}
-.timer-div {
-  background-color: #e1f5fe;
-  width: 7.5em;
-  border-radius: 1.8em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.7em 1.8em;
-}
-.question {
-  margin-bottom: 1.25em;
-  font-weight: 600;
-}
-.option-div {
-  font-size: 0.9em;
-  width: 100%;
-  padding: 1em;
-  margin: 0.3em 0;
-  text-align: left;
-  outline: none;
-  background: transparent;
-  border: 1px solid #c0bfd2;
-  border-radius: 0.3em;
-}
-.option-div:disabled {
-  color: #000000;
-  cursor: not-allowed;
-}
-#next-button {
-  font-size: 1em;
-  margin-top: 1.5em;
-  background-color: #8754ff;
-  color: #ffffff;
-  padding: 0.7em 1.8em;
-  border-radius: 0.3em;
-  float: right;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
-}
-.hide {
-  display: none;
-}
-.incorrect {
-  background-color: #ffdde0;
-  color: #d32f2f;
-  border-color: #d32f2f;
-}
-.correct {
-  background-color: #e7f6d5;
-  color: #689f38;
-  border-color: #689f38;
-}
-#user-score {
-  font-size: 1.5em;
-  color: #ffffff;
-}
-    </style>
 
     <title>Quiz App using JavaScript - @code.scientist x @codingtorque</title>
 </head>
 
 <body>
-    <header class="u-clearfix u-grey-5 u-header u-header" id="sec-1765"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+    <!-- <header class="u-clearfix u-grey-5 u-header u-header" id="sec-1765"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">IntelHuB</h1>
         <a href="Home.html" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="480" title="Home">
           <img src="images/logo-search-grid-2x.png" class="u-logo-image u-logo-image-1">
@@ -179,7 +67,8 @@ button {
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
+      </div></header> -->
+
     <!-- Further code here -->
     <div class="start-screen">
         <button id="start-button">Start</button>
@@ -205,7 +94,7 @@ button {
         <button id="restart">Restart</button>
     </div>
 
-    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-5" id="sec-3cd5"><div class="u-clearfix u-sheet u-sheet-1">
+    <!-- <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-5" id="sec-3cd5"><div class="u-clearfix u-sheet u-sheet-1">
       <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="480">
         <img src="images/logo-search-grid-2x.png" class="u-logo-image u-logo-image-1">
       </a>
@@ -244,7 +133,7 @@ button {
     <a class="u-link" href="" target="_blank">
       <span>Website Builder Software</span>
     </a>. 
-  </section>
+  </section> -->
 
     <script>
         //References
